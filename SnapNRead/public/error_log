@@ -1,0 +1,25 @@
+[26-Jan-2025 08:21:16 UTC] PHP Notice:  Undefined index: user_id in /home4/farawrmj/public_html/SnapNRead/public/student_dashboard.php on line 10
+[26-Jan-2025 08:21:16 UTC] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in /home4/farawrmj/public_html/SnapNRead/public/student_dashboard.php on line 13
+[26-Jan-2025 08:21:16 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home4/farawrmj/public_html/SnapNRead/public/student_dashboard.php on line 76
+[26-Jan-2025 08:21:37 UTC] PHP Notice:  Undefined index: user_id in /home4/farawrmj/public_html/SnapNRead/public/student_dashboard.php on line 10
+[26-Jan-2025 08:21:37 UTC] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in /home4/farawrmj/public_html/SnapNRead/public/student_dashboard.php on line 13
+[26-Jan-2025 08:21:37 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home4/farawrmj/public_html/SnapNRead/public/student_dashboard.php on line 76
+[26-Jan-2025 08:24:25 UTC] PHP Notice:  Undefined index: user_id in /home4/farawrmj/public_html/SnapNRead/public/student_dashboard.php on line 10
+[26-Jan-2025 08:24:25 UTC] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in /home4/farawrmj/public_html/SnapNRead/public/student_dashboard.php on line 13
+[26-Jan-2025 08:24:25 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home4/farawrmj/public_html/SnapNRead/public/student_dashboard.php on line 59
+[26-Jan-2025 08:33:14 UTC] PHP Notice:  Undefined index: user_id in /home4/farawrmj/public_html/SnapNRead/public/student_dashboard.php on line 10
+[26-Jan-2025 08:33:14 UTC] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in /home4/farawrmj/public_html/SnapNRead/public/student_dashboard.php on line 13
+[26-Jan-2025 08:33:14 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home4/farawrmj/public_html/SnapNRead/public/student_dashboard.php on line 76
+[26-Jan-2025 08:35:02 UTC] PHP Notice:  Undefined index: user_id in /home4/farawrmj/public_html/SnapNRead/public/student_dashboard.php on line 10
+[26-Jan-2025 08:35:02 UTC] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in /home4/farawrmj/public_html/SnapNRead/public/student_dashboard.php on line 13
+[26-Jan-2025 08:35:02 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home4/farawrmj/public_html/SnapNRead/public/student_dashboard.php on line 91
+[26-Jan-2025 08:39:02 UTC] PHP Notice:  Undefined index: user_id in /home4/farawrmj/public_html/SnapNRead/public/student_dashboard.php on line 10
+[26-Jan-2025 08:39:02 UTC] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in /home4/farawrmj/public_html/SnapNRead/public/student_dashboard.php on line 13
+[26-Jan-2025 08:39:02 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home4/farawrmj/public_html/SnapNRead/public/student_dashboard.php on line 108
+[26-Jan-2025 08:41:10 UTC] PHP Notice:  Undefined index: user_id in /home4/farawrmj/public_html/SnapNRead/public/student_dashboard.php on line 10
+[26-Jan-2025 08:41:10 UTC] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in /home4/farawrmj/public_html/SnapNRead/public/student_dashboard.php on line 13
+[26-Jan-2025 08:41:10 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home4/farawrmj/public_html/SnapNRead/public/student_dashboard.php on line 108
+[27-Jan-2025 02:57:21 UTC] PHP Notice:  Undefined index: role in /home4/farawrmj/public_html/SnapNRead/public/admin_dashboard.php on line 3
+[27-Jan-2025 02:57:24 UTC] PHP Notice:  Undefined index: role in /home4/farawrmj/public_html/SnapNRead/public/student_dashboard.php on line 3
+[27-Jan-2025 05:29:29 UTC] PHP Notice:  Undefined index: role in /home4/farawrmj/public_html/SnapNRead/public/admin_dashboard.php on line 3
+[27-Jan-2025 13:59:08 UTC] PHP Notice:  Undefined index: role in /home4/farawrmj/public_html/SnapNRead/public/student_dashboard.php on line 3

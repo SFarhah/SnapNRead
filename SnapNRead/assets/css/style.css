@@ -1,0 +1,253 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #f4f6f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    background: linear-gradient(135deg, #8a2be2, #9b4dca); /* Purple gradient */
+    padding: 20px 0;
+    text-align: center;
+    color: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 0 0 15px 15px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin: 0;
+}
+
+/* Navigation Bar */
+nav {
+    display: flex;
+    justify-content: center;
+    background: #8a2be2; /* Purple */
+    padding: 15px;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+nav a:hover {
+    background: #7a1fa2; /* Darker purple on hover */
+    border-radius: 10px;
+}
+
+/* Form Styling */
+form {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form input,
+form button {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+form input:focus {
+    outline: none;
+    border-color: #8a2be2; /* Purple border */
+    box-shadow: 0 0 8px rgba(138, 43, 226, 0.3);
+}
+
+form button {
+    background: #8a2be2; /* Purple */
+    color: #fff;
+    font-size: 1.2rem;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+form button:hover {
+    background: #7a1fa2; /* Darker purple on hover */
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #8a2be2; /* Purple */
+    color: #fff;
+    border-radius: 15px 15px 0 0;
+    margin-top: 30px;
+}
+
+/* Book List */
+.book-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.book-item {
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 280px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.book-item:hover {
+    transform: scale(1.05);
+}
+
+.book-item img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.book-item h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-top: 10px;
+}
+
+.book-item p {
+    color: #555;
+    font-size: 1rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2rem;
+    }
+    
+    nav {
+        flex-direction: column;
+    }
+    
+    nav a {
+        margin-bottom: 10px;
+    }
+
+    .book-list {
+        flex-direction: column;
+    }
+}
+
+/* Login and Register Page Specific Styles */
+.login-container,
+.register-container {
+    max-width: 400px;
+    margin: auto;
+    padding: 2rem;
+    border-radius: 10px;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.login-container h2,
+.register-container h2 {
+    text-align: center;
+    color: #8a2be2; /* Purple */
+    margin-bottom: 20px;
+}
+
+.login-container button,
+.register-container button {
+    background: #8a2be2; /* Purple */
+    color: white;
+    font-size: 1.2rem;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.login-container button:hover,
+.register-container button:hover {
+    background: #7a1fa2; /* Darker purple */
+}
+
+.login-container input,
+.register-container input {
+    border: 1px solid #8a2be2; /* Purple border */
+}
+
+.login-container input:focus,
+.register-container input:focus {
+    border-color: #8a2be2; /* Purple on focus */
+    box-shadow: 0 0 8px rgba(138, 43, 226, 0.3);
+}
+
+/* Sidebar */
+.sidebar {
+    background: #8a2be2; /* Purple */
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.sidebar h1 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+.sidebar .list-group-item {
+    background: transparent;
+    border: none;
+    color: #fff;
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.sidebar .list-group-item:hover {
+    background: #7a1fa2; /* Darker purple */
+}
+
+/* Card Design */
+.card {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.card .card-body {
+    color: #333;
+}
+
+.card .card-title {
+    font-size: 1.5rem;
+    color: #8a2be2; /* Purple */
+}
+
+.card .card-text {
+    color: #555;
+}
